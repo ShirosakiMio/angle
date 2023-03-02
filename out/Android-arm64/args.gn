@@ -14,7 +14,7 @@ android32_ndk_api_level = 26
 android64_ndk_api_level = 26
 
 # Disable all backends except GLES
-angle_enable_gl = false
+angle_enable_gl = true
 angle_enable_vulkan = true
 angle_enable_d3d9 = false
 angle_enable_d3d11 = false
@@ -22,6 +22,8 @@ angle_enable_null = false
 angle_enable_metal = false
 
 angle_enable_desktop_glsl = true
+
+angle_enable_gl_desktop_frontend = true
 
 # Shader fix
 angle_use_spirv_gen_through_glslang = true
